@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Keo Sopharanith — CV</title>
+<style>
+@page{size:A4;margin:0}*{box-sizing:border-box}body{margin:0;background:#ddd6d0;color:#181314;font-family:Arial,Helvetica,sans-serif}
+.cv{width:210mm;min-height:297mm;margin:18px auto;background:#fff;padding:15mm 16mm;position:relative}
+header{display:grid;grid-template-columns:1fr 34mm;gap:15mm;border-bottom:2px solid #c91522;padding-bottom:9mm}
+h1{font-size:31px;letter-spacing:-1.5px;margin:0 0 4px}h2{font-size:11px;letter-spacing:2px;color:#c91522;margin:0 0 6px;text-transform:uppercase}p{font-size:10px;line-height:1.55;margin:5px 0;color:#4d4643}
+.contact{font-size:8.5px;color:#5b5350;line-height:1.8}.photo{width:34mm;height:42mm;object-fit:cover;border:5px solid #f0ebe7}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:9mm;margin-top:8mm}.full{grid-column:1/-1}
+section{margin-bottom:7mm}.title{font-size:9px;letter-spacing:1.8px;color:#c91522;border-bottom:1px solid #ddd5cf;padding-bottom:4px;margin-bottom:6px}
+.item{margin-bottom:7px}.item strong{display:block;font-size:11px}.meta{font-size:8px;color:#817773;text-transform:uppercase;letter-spacing:.5px;margin-top:2px}
+ul{padding-left:15px;margin:4px 0}li{font-size:9px;line-height:1.5;margin:2px 0;color:#514a47}
+.tags{display:flex;flex-wrap:wrap;gap:4px}.tag{font-size:8px;border:1px solid #cfc6c0;padding:4px 6px}
+footer{position:absolute;bottom:8mm;left:16mm;right:16mm;border-top:1px solid #ddd5cf;padding-top:4px;display:flex;justify-content:space-between;font-size:7px;color:#8a817c}
+.print{position:fixed;right:20px;top:20px;background:#c91522;color:white;border:0;padding:11px 15px;font-weight:bold;cursor:pointer;z-index:10}
+@media(max-width:720px){body{background:#f5f1ed}.cv{width:100%;min-height:100vh;margin:0;padding:24px 18px 70px}.print{position:sticky;top:12px;float:right;margin-bottom:10px;padding:10px 12px;font-size:12px}header{display:block;padding-bottom:22px}.photo{width:92px;height:112px;margin-top:16px;border-width:3px}h1{font-size:28px}.grid{display:block;margin-top:24px}section{margin-bottom:24px}.full{grid-column:auto}.title{font-size:9px;margin-bottom:9px}.item{margin-bottom:12px}.item strong{font-size:12px}.meta{font-size:8px}.tags{gap:5px}.tag{font-size:8px;padding:5px 6px}p{font-size:10px}.contact{font-size:8.5px;overflow-wrap:anywhere}footer{position:static;margin-top:20px;display:flex;gap:8px;flex-direction:column}.grid section:nth-child(4){break-inside:avoid}}
+@media print{body{background:#fff}.cv{margin:0;box-shadow:none}.print{display:none}}
+</style>
+</head>
+<body>
+<button class="print" onclick="window.print()">Print / Save as PDF</button>
+<div class="cv">
+<header><div><h1>Keo Sopharanith</h1><h2>Full Stack Developer · Cybersecurity</h2>
+<p>I build modern web systems across frontend, backend and data, with a growing cybersecurity practice focused on static analysis, reverse engineering and evidence-based reporting.</p>
+<div class="contact">089 798 949 · ranith9876@gmail.com · Phnom Penh, Cambodia<br>github.com/Meiiliiiii</div></div>
+<img class="photo" src="/assets/profile.jpg" alt="Keo Sopharanith"></header>
+<div class="grid">
+<section class="full"><div class="title">Professional Profile</div><p>IT Engineering student with hands-on experience in web development, database systems, cybersecurity analysis, technical documentation, IT support and communication. Comfortable learning across the stack and turning coursework into practical projects.</p></section>
+<section><div class="title">Technical Skills</div>
+<div class="tags">
+<span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JavaScript</span><span class="tag">TypeScript</span><span class="tag">React</span><span class="tag">Node.js</span><span class="tag">Express</span><span class="tag">Python</span><span class="tag">Java</span><span class="tag">C++</span><span class="tag">SQL</span><span class="tag">Bash</span><span class="tag">PowerShell</span><span class="tag">Git/GitHub</span><span class="tag">Ghidra</span><span class="tag">YARA</span><span class="tag">PE Analysis</span><span class="tag">REST APIs</span><span class="tag">UML</span></div></section>
+<section><div class="title">Languages</div>
+<div class="item"><strong>Khmer</strong><div class="meta">Native</div></div>
+<div class="item"><strong>English</strong><div class="meta">Fluent · studied 2014–2020</div></div>
+<div class="item"><strong>Chinese</strong><div class="meta">Intermediate · GCP8 / HSK 4 / IFL 4A</div></div></section>
+<section><div class="title">Experience</div>
+<div class="item"><strong>IT Support · Assistant · Translator</strong><div class="meta">Private Dental Clinic · 2025–Present</div><ul><li>IT support, administration and daily operational problem solving.</li><li>Patient communication, scheduling and record support.</li><li>Khmer ↔ English translation and customer communication.</li></ul></div></section>
+<section><div class="title">Education & Training</div>
+<div class="item"><strong>Information Technology Engineering</strong><div class="meta">Royal University of Phnom Penh · 2024–Present</div></div>
+<div class="item"><strong>Chinese — GCP8 / HSK 4</strong><div class="meta">Spring Education Center · Current</div></div>
+<div class="item"><strong>Chinese — Level 4A</strong><div class="meta">IFL Short Course · Current</div></div>
+<div class="item"><strong>Cybersecurity</strong><div class="meta">Short Course · Current · Currently studying</div></div></section>
+<section class="full"><div class="title">Selected Projects</div>
+<div class="item"><strong>Jomney Pet Food — Full Stack E-commerce</strong><p>Responsive dog and cat food web store with product browsing, authentication, cart/checkout flow, database-backed functionality and GitHub workflow.</p></div>
+<div class="item"><strong>Windows Installer — Static Malware Analysis</strong><p>Academic cybersecurity project using PE inspection, strings, entropy, Authenticode parsing, YARA and conservative MITRE ATT&CK mapping.</p></div>
+<div class="item"><strong>Mobile Application — Reverse Engineering</strong><p>Academic reverse-engineering project using Ghidra, control-flow analysis, decompilation and data-flow reasoning without execution.</p></div>
+</section>
+</div>
+<footer><span>KEO SOPHARANITH</span><span>FULL STACK · CYBERSECURITY</span></footer>
+</div>
+</body></html>
